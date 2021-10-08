@@ -7,10 +7,10 @@ pygame.init()
 # Create the game window/screen
 screen = pygame.display.set_mode((400,600))
 
-# Create a rectangle for paddle object and position it on top of paddle at its center
+# Create a rectangle for paddle object 
 paddle = pygame.Rect(150,500,100,30)
 
-# Create a rectangle for ball object
+# Create a rectangle for ball object and position it on top of paddle at its center
 ball = pygame.Rect(190,480,20,20)
 
 while True:    
